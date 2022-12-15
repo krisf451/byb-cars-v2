@@ -1,0 +1,16 @@
+.navigation-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: red;
+  height: 3px;
+  width: 0;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+.navigation-link:hover::after {
+  width: 100%;
+  pointer-events: none;
+}
