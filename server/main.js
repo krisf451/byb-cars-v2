@@ -10,6 +10,7 @@ import carsRouter from "./routes/cars.js";
 import stripeRouter from "./routes/stripe.js";
 
 dotenv.config();
+console.log('test')
 
 
 const PORT = process.env.PORT || 9000;
